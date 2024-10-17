@@ -1,0 +1,12 @@
+import React from "react";
+import {createRoot} from "react-dom/client"
+// import All from "./Components/All";
+import App from "./App";
+
+let root = createRoot(document.getElementById("root"));
+
+root.render(
+    <>
+        <App />
+    </>
+)
